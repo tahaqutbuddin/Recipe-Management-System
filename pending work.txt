@@ -1,0 +1,2 @@
+** chef_id in profile.php of dashboard 
+** check scripts for if google, facebook user account is blocked in includes/class.login.php

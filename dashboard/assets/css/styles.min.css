@@ -1,0 +1,279 @@
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffa3a4; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #cc8283; 
+}
+
+
+@media (min-width: 640px) {
+  #menu-bar {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+}
+.navbar.navbar-light.navbar-expand.topbar.static-top {
+  background-color: #fdfdfd !important;
+}
+.bg-gradient-primary {
+  background-color: #ffa3a4;
+  background-image: linear-gradient(180deg, #ffa3a4 10%, #f7c1c2);
+  background-size: cover;
+}
+.btn-link:hover {
+  color: #ffa3a4;
+}
+.btn-link {
+  font-weight: 400;
+  color: #ffa3a4;
+  text-decoration: none;
+}
+.icon-nav-link {
+  font-size: 20px !important;
+}
+.text-side-nav-link {
+  font-size: 14px;
+}
+#brand-side-nav {
+  font-size: 42px;
+}
+#text-side-nav-brand {
+  font-size: 21px;
+}
+.text-primary {
+  color: #000 !important;
+}
+.profile-button-a {
+  background-color: #ffa3a4;
+  border-color: #ffa3a4;
+}
+.profile-button-a:active {
+  background-color: #ffa3a4 !important;
+  border-color: #ffa3a4 !important;
+  color: #fff !important;
+}
+.profile-button-a:hover {
+  background-color: #fff;
+  border-color: #ffa3a4;
+  color: #ffa3a4;
+}
+
+@font-face 
+{
+  font-family: "SuisseScreen-Monitor-WebS";
+  src: url("../../form_assets/fonts/Suisse Screen/SuisseScreen-Monitor-WebS.woff2") format("woff2");
+  font-style: normal;
+}
+* {
+  font-family: "SuisseScreen-Monitor-WebS";
+}
+
+
+.image-chef {
+  width: 50px;
+  height: 50px;
+  background:  center/cover no-repeat
+}
+
+.chefname {
+  padding-left: .3rem
+}
+.cta {
+  padding-bottom: 5rem;
+}
+
+.cta .cta-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.cta .cta-inner:before {
+  border-radius: 0.5rem;
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+}
+#button_111
+{
+    font-size: 14px
+}
+#examplecom
+{
+  border-width: 0px;
+  min-height: 100%;
+}
+#col-1
+{
+  margin-bottom: 28px;
+}
+
+#removebutton
+{
+  margin-top: -5px;
+}
+#dataTable
+{
+  overflow-y: auto;
+  height: 251px;
+}
+#main-color
+{
+  color: rgb(33, 37, 41);
+}
+#id-1
+{
+  padding: 20px;
+  /*background: rgba(255, 199, 199, 0.9);*/
+}
+#id-2
+{
+  font-size: 35px;text-align: center;
+}
+
+#id-4
+{
+  text-align: justify;
+  font-size: 17px;
+}
+#id-123
+{
+  text-align:start;
+}
+#hr-id
+{
+  background: #a98e8e;
+}
+#id-5
+{
+  padding-bottom: 12px;
+}
+#id-6
+{
+  font-size: 35px;font-family: ABeeZee, sans-serif;margin-top: 15px;
+}
+#id-7
+{
+  height: 42px;
+}
+#id-8
+{
+  font-weight: 900;font-size: 26px;
+}
+#id-9
+{
+  font-weight: 900;font-size: 30px;
+}
+#id-10
+{
+  font-size: 21px;width: 110px;padding-left: 5px;
+} 
+#id-11
+{
+  font-size: 20px;
+}
+#page-cta
+{
+  margin-top: 0px;
+}
+#id-12
+{
+  margin: 0px;padding: 0px;margin-top: 30px;
+}
+#id-13
+{
+  padding:0px;
+}
+#id-14
+{
+  height: 30vh;background: center / cover no-repeat;
+  max-width: 100%;
+  max-width: 100%;
+}
+#id-15
+{
+  /*background: #ffe6e6;*/
+  width: 100%;
+}
+#id-16
+{
+  font-size: 14px
+}
+#id-17
+{
+  text-decoration: none;
+}
+
+/* Save Changes button in edit page */
+.save-changes-btn {
+  background-color: #ffa3a4;
+  border-color: #ffa3a4;
+  font-size: 20px;
+}
+
+.save-changes-btn:active {
+  background-color: #ffa3a4 !important;
+  border-color: #ffa3a4 !important;
+}
+
+.save-changes-btn:focus {
+  background-color: #ffa3a4;
+  border-color: #ffa3a4;
+}
+
+.save-changes-btn:hover {
+  background-color: #ffffff;
+  border-color: #ffa3a4;
+  color: #ffa3a4;
+}
+@media (min-width: 768px) {
+  .row-save-changes {
+    padding-right: 8% !important;
+  }
+}
+.row-save-changes {
+  padding-right: 2%;
+}
+@media (max-width: 992px) {
+  .col-save-changes {
+    align-items: center !important;
+  }
+  .row-save-changes {
+    padding-left: 5%;
+    padding-right: 0%;
+  }
+}
+
+#textarea-1 .container {
+  margin: unset !important;
+}

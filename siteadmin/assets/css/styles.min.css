@@ -1,0 +1,403 @@
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffa3a4; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #cc8283; 
+}
+
+
+@font-face 
+{
+  font-family: "SuisseScreen-Monitor-WebS";
+  src: url("../fonts/Suisse Screen/SuisseScreen-Monitor-WebS.woff2") format("woff2");
+  font-style: normal;
+}
+* {
+  font-family: "SuisseScreen-Monitor-WebS";
+}
+@media (min-width: 640px) {
+  #menu-bar {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+}
+
+.bg-gradient-primary {
+  background-color: #ffa3a4;
+  background-image: linear-gradient(180deg, #ffa3a4 10%, #f7c1c2);
+  background-size: cover;
+}
+.btn-link:hover {
+  color: #ffa3a4;
+}
+.btn-link {
+  font-weight: 400;
+  color: #ffa3a4;
+  text-decoration: none;
+}
+.icon-nav-link {
+  font-size: 20px !important;
+}
+.text-side-nav-link {
+  font-size: 14px;
+}
+#brand-side-nav {
+  font-size: 42px;
+}
+#text-side-nav-brand {
+  font-size: 21px;
+}
+.text-primary {
+  color: #000 !important;
+}
+.profile-button-a {
+  background-color: #ffa3a4;
+  border-color: #ffa3a4;
+}
+.profile-button-a:active {
+  background-color: #ffa3a4 !important;
+  border-color: #ffa3a4 !important;
+  color: #fff !important;
+}
+.profile-button-a:hover {
+  background-color: #fff;
+  border-color: #ffa3a4;
+  color: #ffa3a4;
+}
+.profile-button-a:focus {
+  background-color: #fff;
+  border-color: #ffa3a4;
+  color: #ffa3a4;
+}
+.fa-angle-left
+{
+  color: #f19d9d;
+}
+
+.button-style-r
+{
+    background-color: #FFA3A4!important;
+    color: white!important;
+    border-color: #FFA3A4!important;
+}
+.button-style-r:hover
+{
+    background-color: #ffffff!important;
+    color: #FFA3A4!important;
+    border-color: #FFA3A4!important;
+}
+.button-style-r:active
+{
+    background-color: #FFA3A4!important;
+    color: white!important;
+    border-color: #FFA3A4!important;
+}
+.text-p
+{
+    color: #FFA3A4;
+}
+.page-link 
+{
+    color: black;
+}
+.page-item :hover
+{
+    color: rgb(255, 255, 255);
+    background-color: #ffa3a4;
+    border-color: #ffa3a4;
+}
+.page-item :active
+{
+    color: #ffa3a4;
+    background-color: #ffffff;
+    border-color: #ffa3a4;
+}
+.page-item.active :hover
+{
+    color: #ffa3a4;
+    background-color: #ffffff;
+    border-color: #ffa3a4;
+}
+.page-item.active :active
+{
+    color: #ffffff;
+    background-color: #ffa3a4;
+    border-color: #ffa3a4;
+}
+.page-item.active .page-link
+{
+    background-color: #ffa3a4;
+    border-color: #ffa3a4;
+}
+.form-style-vm
+{
+  border-width: 1px; border-color: rgb(197, 197, 197); border-radius: 5px; padding-left: 10px;
+}
+.delete-user-btn
+{
+  font-size: 18px;
+}
+.block-btn
+{
+  font-size: 18px;
+}
+.delete-user-btn:hover
+{
+  color: #E02D1B;
+  background-color: white;
+  border-color: #E02D1B;
+}
+
+.block-btn:hover
+{
+  background-color: white;
+  color: #F6C23E;
+  border-color:#F6C23E;
+}
+.delete-user-btn:active
+{
+  background-color: #E02D1B;
+  color: white;
+  border-color: #E02D1B;
+}
+
+.block-btn:active
+{
+  color: white;
+  background-color: #F6C23E;
+  border-color:#F6C23E;
+}
+
+
+.search-form {
+  margin: 40px 5px;
+  font: 12px sans-serif;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+.search-form div.input-group-addon {
+  background: #fff;
+  color: #80a3bd;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  border: 1px solid #b6c3cd;
+  border-right: 0;
+}
+.search-form .input-group input {
+  background-color: #fff;
+  box-shadow: none;
+  color: #4e565c;
+  outline: 0;
+  border: 1px solid #b6c3cd;
+  border-right: 0;
+  border-left: 0;
+}
+.search-form div.input-group-btn button {
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  background: #6caee0;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  color: #fff;
+  border-color: #6caee0;
+  outline: 0;
+  opacity: 0.9;
+}
+.search-form div.input-group-btn button:hover {
+  opacity: 1;
+}
+.search-form div.input-group-btn button:focus:active {
+  background-color: #6caee0;
+  color: #fff;
+  outline: 0;
+}
+.tableFixHead tbody {
+  overflow-y: auto;
+  height: 100px;
+}
+.tableFixHead thead th {
+  position:sticky;
+  top: -1mm;
+  background-color: #f0f0f0;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  padding: 8px 16px;
+}
+
+
+.cta .cta-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.cta .cta-inner:before {
+  border-radius: 0.5rem;
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+}
+
+#removebutton
+{
+  margin-top: -5px;
+}
+#dataTable
+{
+  overflow-y: auto;
+  height: 251px;
+}
+#main-color
+{
+  color: rgb(33, 37, 41);
+}
+
+.logout-button:hover
+{
+  background-color: #FFA3A4;
+  color: white;
+}
+.logout-button:active
+{
+  background-color: white;
+  color: #000000;
+}
+
+
+#upload-btn
+{
+  margin-left: 1%;
+}
+.file-upload {
+  display: flex;
+  justify-content: center;
+
+}
+.file-upload .file-select {
+  display: block;
+  border: 2px solid #dce4ec;
+  color: #34495e;
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  background: #ffffff;
+  overflow: hidden;
+  position: relative;
+}
+.file-upload .file-select .file-select-button {
+  background: #dce4ec;
+  padding: 0 10px;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+}
+.file-upload .file-select .file-select-name {
+  line-height: 40px;
+  display: inline-block;
+  padding: 0 10px;
+}
+.file-upload .file-select:hover {
+  border-color: #ffa3a4;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+.file-upload .file-select:hover .file-select-button {
+  background: #ffa3a4;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+.file-upload.active .file-select {
+  border-color: #ffa3a4;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+.file-upload.active .file-select .file-select-button {
+  background: #ffa3a4;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+.file-upload .file-select input[type="file"] {
+  z-index: 100;
+  cursor: pointer;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.file-upload .file-select.file-select-disabled {
+  opacity: 0.65;
+}
+.file-upload .file-select.file-select-disabled:hover {
+  cursor: default;
+  display: block;
+  border: 2px solid #dce4ec;
+  color:#ffa3a4;
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 5px;
+  text-align: left;
+  background: #ffffff;
+  overflow: hidden;
+  position: relative;
+}
+.file-upload .file-select.file-select-disabled:hover .file-select-button {
+  background: #dce4ec;
+  color: #ffa3a4;
+  padding: 0 10px;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+}
+.file-upload .file-select.file-select-disabled:hover .file-select-name {
+  line-height: 40px;
+  display: inline-block;
+  padding: 0 10px;
+}

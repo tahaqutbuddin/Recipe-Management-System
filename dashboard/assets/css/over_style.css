@@ -1,0 +1,201 @@
+
+
+.carousel {
+  position: relative;
+}
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.carousel-item {
+  position: relative;
+  display: none;
+  align-items: center;
+  width: 100%;
+  transition: transform 0.6s;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: block;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+}
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: 0.9;
+}
+.carousel-control-prev {
+  left: 0;
+}
+.carousel-control-next {
+  right: 0;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: center center/100% 100% no-repeat;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-indicators {
+    margin-top: 40px;
+  position: absolute;
+  right: 0;
+  bottom: -12px;
+  left: 0;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+.carousel-indicators li {
+  position: relative;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.carousel-indicators .active {
+  background-color: #fff;
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+#random_name {
+  text-decoration: none;
+}
+@media (min-width: 576px)  {
+  .overview-slider {
+    display: none;
+  }
+}
+.overview-inner {
+  background-color: #e5e5e5;
+  padding-bottom: 40px!important;
+  padding: 5px 12% 5px 12%;
+}
+.fa-caret-right
+{
+  padding-top: 1.7%;
+}
+.heading-cc-1{
+  font-weight: bold;
+  padding-top: 30px;
+  text-decoration: underline;
+  color: black!important;
+  white-space: pre-wrap;
+  word-break: break-word !important;
+  word-wrap: break-word !important;
+  padding-left: 20px;
+}
+.heading-cc-2
+{
+  padding-left: 20px;
+  font-style: italic;
+  color: #FB4B4B!important;
+  padding-top:10px;
+}
+.heading-cc-3
+{
+  padding-top:1%;
+ 
+  color: black!important;
+}
+.container-cc
+{
+  margin-top: 10px;margin-bottom: 10px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0px!important;
+  border-radius: .35rem;
+}
+.row.row-hide {
+  margin-top: 80px;
+  visibility: visible;
+  display: flex;
+  margin-left: 10px;
+}
+.btn.btn-primary.active.dropdown-toggle.pic-dropdown {
+  background-color: #e5e5e5 !important;
+  color: rgb(0, 0, 0) !important;
+  border: 1px solid #000 !important;
+}
+.dropdown-item.flex-grow-1.flex-shrink-1.desciption-option.col-md-12 {
+width: 100%;
+margin-right: 0px;
+}
+.dropdown-item.desciption-option {
+  width: 1;
+  white-space: pre-wrap;
+}
+@media (min-width: 576px) {
+.row.row-hide {
+  visibility: hidden;
+  display: none;
+}
+}
+.btn-script
+{
+width:97%; overflow: hidden;white-space: normal;
+}
+
+.img-title
+{
+width: 81px;margin-top: 3px;height: 71px;padding-top: -1px;margin-right: 6px;
+}
+.dropdown-menu schrit{
+width: 95%!important;
+}
+.drop-down-overview-wala:active
+{
+background-color: #ffa3a4;
+border-color: #ffa3a4;
+}
