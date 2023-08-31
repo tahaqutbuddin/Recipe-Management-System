@@ -1,12 +1,1 @@
-The ftp access:
-w01aef2e.kasserver.com
-user: w01aef2e
-pw: W9DTzPn6T.Tr+eh
 
-
-The access to hosting:
-https://all-inkl.com/login/
-account: 661624
-pw: W9DTzPn6T.Tr+eh
-
-subdomain chef.flavourflip.de
